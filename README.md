@@ -3,7 +3,7 @@
 ## 🔗 Live Links
 
 - **GitHub Repository:** https://github.com/arshiya61/Internship_task.git
-- **Live Preview (GitHub Pages or Netlify):** bootstrap5-internship-project.netlify.app
+- **Live Preview (GitHub Pages or Netlify):** https://bootstrap5-internship-project.netlify.app/
 
 ---
 
