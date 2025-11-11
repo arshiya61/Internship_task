@@ -2,8 +2,8 @@
 
 ## 🔗 Live Links
 
-- **GitHub Repository:** [https://github.com/yourusername/project-name](https://github.com/yourusername/project-name)
-- **Live Preview (GitHub Pages or Netlify):** [https://yourusername.github.io/project-name](https://yourusername.github.io/project-name)
+- **GitHub Repository:** https://github.com/arshiya61/Internship_task.git
+- **Live Preview (GitHub Pages or Netlify):** bootstrap5-internship-project.netlify.app
 
 ---
 
