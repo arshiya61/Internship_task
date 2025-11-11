@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Acme Studio — Home</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Acme Studio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="btn btn-primary" href="contact.html">Get Started</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 order-2 order-md-1">
+            <h1 class="display-5 fw-bold">
+              Design & Build Beautiful Bootstrap Pages
+            </h1>
+            <p class="lead text-muted">
+              We remix Bootstrap components to create clean, responsive
+              interfaces — fast.
+            </p>
+            <p>
+              <a class="btn btn-primary btn-lg me-2" href="about.html"
+                >Our Services</a
+              >
+              <a class="btn btn-outline-secondary btn-lg" href="contact.html"
+                >Contact Us</a
+              >
+            </p>
+          </div>
+          <div class="col-12 col-md-6 order-1 order-md-2 text-center">
+            <img
+              src="images/i1.webp"
+              class="img-fluid rounded shadow-sm"
+              alt="Team working on design"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Features -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Responsive Design</h5>
+                <p class="card-text text-muted">
+                  Layouts that adapt perfectly to any screen size using the
+                  Bootstrap grid and utilities.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Component Library</h5>
+                <p class="card-text text-muted">
+                  Reusable components — cards, modals, forms — crafted for
+                  clarity and speed.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Accessible UI</h5>
+                <p class="card-text text-muted">
+                  Built with semantic HTML and best practices for keyboard and
+                  screen-reader users.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5 bg-white">
+      <div class="container">
+        <h2 class="h3 mb-4 text-center">What clients say</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card p-4 h-100 border-0 shadow-sm">
+              <p class="mb-1">
+                "Fast turnaround and great design sense — our pages look modern
+                and load quickly."
+              </p>
+              <small class="text-muted">— Alex, Product Manager</small>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-4 h-100 border-0 shadow-sm">
+              <p class="mb-1">
+                "The contact form integration saved us time; collection is
+                reliable."
+              </p>
+              <small class="text-muted">— Priya, Founder</small>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-4 h-100 border-0 shadow-sm">
+              <p class="mb-1">
+                "Clean code and easy to maintain — the team liked the consistent
+                spacing."
+              </p>
+              <small class="text-muted">— Marcos, CTO</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white text-center">
+      <div class="container">
+        <h3>Ready to start your project?</h3>
+        <p class="mb-4">
+          Send us a message and we'll get back within 24 hours.
+        </p>
+        <a class="btn btn-light btn-lg" href="contact.html">Contact Us</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-white border-top">
+      <div class="container text-center">
+        <small class="text-muted"
+          >© <span id="year"></span> Acme Studio — Built with Bootstrap 5</small
+        >
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
