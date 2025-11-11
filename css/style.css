@@ -1,0 +1,78 @@
+:root {
+  --primary: #0d6efd;
+  --muted: #6c757d;
+  --bg: #f8fafc;
+  --card-radius: 12px;
+  --shadow-soft: 0 6px 18px rgba(17, 24, 39, 0.06);
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  background: var(--bg);
+  color: #212529;
+}
+
+/* Navbar */
+.navbar-brand {
+  color: var(--primary);
+  font-weight: 700;
+}
+.navbar .nav-link.active {
+  color: var(--primary);
+}
+
+/* Hero */
+header.bg-light {
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+}
+header img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: var(--shadow-soft);
+}
+
+/* Cards */
+.card {
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow-soft);
+  border: none;
+}
+
+/* Buttons */
+.btn-primary {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+.btn-primary:hover {
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.12);
+}
+
+/* Footer */
+footer .text-muted {
+  color: #6b7280;
+}
+
+/* Forms */
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+  border-color: var(--primary);
+}
+
+/* Accessibility */
+:focus {
+  outline: 3px solid rgba(13, 110, 253, 0.15);
+  outline-offset: 2px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .display-5 {
+    font-size: 1.8rem;
+  }
+}
